@@ -1,9 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">XML lection</string>
     <string name="abc">abc</string>
-    <string name="numbers">1029384756</string>
     <string name="button">button</string>
-    <string name="n1234567890">1234567890</string>
     <string name="text_box_3">text box 3</string>
     <string name="img">TODO</string>
     <string name="img2">TODO</string>

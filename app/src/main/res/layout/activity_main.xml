@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="182.5dp">
+
         <ImageView
             android:layout_width="136.6dp"
             android:layout_height="match_parent"
-            android:src="@mipmap/ic_launcher"/>
+            android:contentDescription="@string/image1"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ImageContrastCheck" />
         <TextView
             android:layout_width="136.6dp"
             android:layout_height="match_parent"
             android:textSize="30sp"
-            android:text="abc"/>
+            android:text="@string/abc"/>
+
         <Button
             android:layout_width="136.6dp"
             android:layout_height="100dp"
-            android:text="@string/app_name"/>
+            android:text="@string/app_name"
+            tools:ignore="TextContrastCheck" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="182.5dp">
-        <LinearLayout
-            android:layout_width="205"
-            android:layout_height="match_parent">
             <Button
                 android:layout_width="205dp"
                 android:layout_height="91.5dp"
-                android:text="button"
-                />
+                android:text="@string/button"
+                tools:ignore="TextContrastCheck" />
             <TextView
                 android:layout_width="205dp"
                 android:layout_height="91.25dp"
-                android:text="1234567890"/>
-        </LinearLayout>
-
+                android:text="@string/n1234567890"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,18 +45,25 @@
         <TextView
             android:layout_width="136.6dp"
             android:layout_height="match_parent"
-            android:text="text box 3"/>
+            android:text="@string/text_box_3"/>
+
         <ImageView
             android:layout_width="136.6dp"
             android:layout_height="match_parent"
-            android:src="@mipmap/ic_launcher"/>
+            android:contentDescription="@string/img2"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ImageContrastCheck" />
         <ListView
             android:layout_width="136.6dp"
             android:layout_height="match_parent"
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="182.5dp">
 
-    </LinearLayout>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="TextContrastCheck" />
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
 </LinearLayout>
