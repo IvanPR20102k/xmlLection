@@ -7,6 +7,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="182.5dp">
+        <TextView
+            android:layout_width="136.6dp"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:text="@string/abc"/>
 
         <ImageView
             android:layout_width="136.6dp"
@@ -14,11 +19,7 @@
             android:contentDescription="@string/image1"
             android:src="@mipmap/ic_launcher"
             tools:ignore="ImageContrastCheck" />
-        <TextView
-            android:layout_width="136.6dp"
-            android:layout_height="match_parent"
-            android:textSize="30sp"
-            android:text="@string/abc"/>
+
 
         <Button
             android:layout_width="136.6dp"
